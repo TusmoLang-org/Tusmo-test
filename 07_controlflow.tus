@@ -43,9 +43,9 @@ inta ay (counter < 5) {
 qor("Sum of 0+1+2+3+4 =", sum);
 
 // For loop - using simpler syntax
-soco i laga bilaabo 1..5{
+soco i laga bilaabo 1..6{
     qor(i);//print 1 upto 5
-};
+}
 // Break test
 qor("\n--- Break Test ---");
 keyd:tiro break_sum = 0;
