@@ -42,16 +42,10 @@ inta ay (counter < 5) {
 }
 qor("Sum of 0+1+2+3+4 =", sum);
 
-// For range loop - using simpler syntax
-qor("\n--- Loop Test ---");
-keyd:tiro total = 0;
-keyd:tiro count = 0;
-inta ay (count < 5) {
-    total = total + (count + 1);
-    count = count + 1;
-}
-qor("Sum of 1+2+3+4+5 =", total);
-
+// For loop - using simpler syntax
+soco i laga bilaabo 1..5{
+    qor(i);//print 1 upto 5
+};
 // Break test
 qor("\n--- Break Test ---");
 keyd:tiro break_sum = 0;
