@@ -1,4 +1,4 @@
-# Tusmo Test
+# Tusmo Examples
 
 Test suite and language examples for Tusmo.
 
